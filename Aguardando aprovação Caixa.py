@@ -11,17 +11,11 @@ def enviar_email():
 
     # Corpo do e-mail com a formatação correta
     email_body = f"""\
-    https://sesisenaisp.atlassian.net/browse/CS-{chamado_numero}
+    https://atlassian.net/browse/-{chamado_numero}
 
     Prezado, tudo bem?
     
-    Gostaria de te avisar que tem o chamado ({chamado_numero}) aguardando por aprovação, e sem ela o chamado permanecerá sem as devidas tratativas.
-    
-    Se tiver alguma dúvida de como proceder com essa aprovação, por favor, liga para a gente que eu te explico como fazer (Tel: 3254-3525).
-    
-    Poderia responder de acordo no Email em questão para aprovar o mesmo, ou acessar o link para aprovar.
-    
-    Atenciosamente,
+Texto
     
     Vinícius Crepaldi.
     """
@@ -29,8 +23,8 @@ def enviar_email():
     # Configurações do servidor de e-mail corporativo
     smtp_server = 'smtp.office365.com'
     smtp_port = 587
-    email_remetente = 'centraldeservicos@digisystem.com.br'
-    senha_remetente = 'digisystem@2024'
+    email_remetente = ''
+    senha_remetente = ''
 
     # Configuração da mensagem
     msg = MIMEMultipart()
