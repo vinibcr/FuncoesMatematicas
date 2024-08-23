@@ -2,7 +2,7 @@ import time
 import openai
 
 # Configuração da chave API
-chave_api = "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"
+chave_api = "sk--ajiotizXT56SsA"
 openai.api_key = chave_api
 
 def enviar_mensagem(mensagem, lista_mensagens=[]):
