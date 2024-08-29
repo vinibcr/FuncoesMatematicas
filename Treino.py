@@ -99,6 +99,19 @@ def fizz_buzz(n):
             print("Buzz")
         else:
             print(i)
+
+
+def definicao_idade():
+    idade = int(input("digite a idade: "))
+
+    if idade < 13:
+        print("Criança")
+    elif idade < 18:
+        print("Adolescente")
+    elif idade < 60:
+        print("Adulto")
+    else:
+        print("Idoso")
     
 #variaveis com o resultado da operação
 resultado = Soma(5,2)
@@ -120,4 +133,5 @@ loop(2)
 tamanho()
 replaceFrase()
 fizz_buzz(10)
+definicao_idade()
 
