@@ -112,6 +112,15 @@ def definicao_idade():
         print("Adulto")
     else:
         print("Idoso")
+
+def descontos():
+
+    valor_inicial = int(input("digite um numero: "))
+    desconto_10 = (valor_inicial * 0.9)
+    desconto_20 = (valor_inicial * 0.8)
+    desconto_30 = (valor_inicial * 0.7)
+
+    print(f"valores: {desconto_10}, {desconto_20}, {desconto_30}")
     
 #variaveis com o resultado da operação
 resultado = Soma(5,2)
@@ -134,4 +143,4 @@ tamanho()
 replaceFrase()
 fizz_buzz(10)
 definicao_idade()
-
+descontos()
