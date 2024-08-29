@@ -66,7 +66,20 @@ def loop(i):
     for i in range(i,7):
         for j in range (i,7):
             print(i,j)
+#Função com len():
+def tamanho():
+    texto = "Olá, mundo!"
+    tamanho1 = len(texto)
+    print(tamanho1)  # Saída: 11
 
+    lista = [1, 2, 3, 4, 5]
+    tamanho2 = len(lista)
+    print(tamanho2)  # Saída: 5
+
+    dicionario = {'nome': 'João', 'idade': 25, 'cidade': 'São Paulo'}
+    tamanho3 = len(dicionario)
+    print(tamanho3)  # Saída: 3
+    
 #variaveis com o resultado da operação
 resultado = Soma(5,2)
 parouimpart = paridade(2)
@@ -84,5 +97,6 @@ parouimpart = paridade(2)
 #Datas()
 #nome("Vinicius")
 loop(2)
+tamanho()
 
 
