@@ -87,6 +87,18 @@ def replaceFrase():
     frase = "gosto de abobora"
     frase = frase.replace("abobora", "maça")
     print(frase)
+
+
+def fizz_buzz(n):
+    for i in range(1, n+1):
+        if i % 3 == 0 and i % 5 == 0:
+            print("FizzBuzz")
+        elif i % 3 == 0:
+            print("Fizz")
+        elif i % 5 == 0:
+            print("Buzz")
+        else:
+            print(i)
     
 #variaveis com o resultado da operação
 resultado = Soma(5,2)
@@ -107,4 +119,5 @@ parouimpart = paridade(2)
 loop(2)
 tamanho()
 replaceFrase()
+fizz_buzz(10)
 
