@@ -82,6 +82,12 @@ def tamanho():
     tamanho3 = len(dicionario)
     print(tamanho3)  # Saída: 3
     
+#replace muda palavras na frase 
+def replaceFrase():
+    frase = "gosto de abobora"
+    frase = frase.replace("abobora", "maça")
+    print(frase)
+    
 #variaveis com o resultado da operação
 resultado = Soma(5,2)
 parouimpart = paridade(2)
@@ -100,5 +106,5 @@ parouimpart = paridade(2)
 #nome("Vinicius")
 loop(2)
 tamanho()
-
+replaceFrase()
 
