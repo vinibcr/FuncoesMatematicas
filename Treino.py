@@ -25,6 +25,8 @@ def maior(Lista):
 def menor(Lista):
     return min (Lista)
 
+
+#Replace substitui palavras
 def substituir_palavra(palavra, nova_palavra):
     texto = "eu gosto de batata frita"
     novo_texto = texto.replace(palavra, nova_palavra)
