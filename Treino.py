@@ -121,6 +121,20 @@ def descontos():
     desconto_30 = (valor_inicial * 0.7)
 
     print(f"valores: {desconto_10}, {desconto_20}, {desconto_30}")
+
+def bubble_sort():
+    vet = [10,68,70,89,6,5,4,3,2,1]
+    N = len(vet)
+    for i in range(N):  # Ajuste: O loop vai até N-1 para evitar IndexError
+        for j in range(N - 1):  # Loop para garantir a ordenação completa
+            if vet[j] > vet[j + 1]:
+                # Troca os elementos
+                aux = vet[j]
+                vet[j] = vet[j + 1]
+                vet[j + 1] = aux
+
+    print(vet)     
+    
     
 #variaveis com o resultado da operação
 resultado = Soma(5,2)
